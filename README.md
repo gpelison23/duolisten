@@ -4,6 +4,11 @@
 
 Play the same audio on two Bluetooth headphones at once on Windows 11.
 
+- **Nothing to install:** a single `.exe`. Just open it.
+- **No drivers:** no virtual audio cables or extra software.
+- **Lightweight:** minimal CPU, GPU and RAM use.
+- **Easy to uninstall:** one button inside the app.
+
 > [!NOTE]
 > All the code was written by **Claude** (Anthropic's AI). Tested and working on **Windows 11**. No guarantee it works on other systems.
 
@@ -27,4 +32,6 @@ If Windows SmartScreen shows a warning: **More info → Run anyway**.
 
 ## Uninstall
 
-Run `UninstallDuoListen.bat` in the same folder as `DuoListen.exe`.
+In the app, click **Uninstall** (at the bottom). It removes the app, its settings and temporary files.
+
+Or run `UninstallDuoListen.bat` in the same folder as `DuoListen.exe`.

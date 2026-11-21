@@ -9,6 +9,7 @@ Play the same audio on two Bluetooth headphones at once on Windows 11.
 - **No drivers:** no virtual audio cables or extra software.
 - **Lightweight:** minimal CPU, GPU and RAM use.
 - **Easy to uninstall:** one button inside the app.
+- **Open source:** MIT license. Use, change and share freely.
 
 > [!NOTE]
 > All the code was written by **Claude** (Anthropic's AI). Tested and working on **Windows 11**. No guarantee it works on other systems.
@@ -36,3 +37,17 @@ If Windows SmartScreen shows a warning: **More info → Run anyway**.
 In the app, click **Uninstall** (at the bottom). It removes the app, its settings and temporary files.
 
 Or run `UninstallDuoListen.bat` in the same folder as `DuoListen.exe`.
+
+## Build from source
+
+Needs the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
+
+```
+dotnet publish DuoListen/DuoListen.csproj -c Release -o dist
+```
+
+The app ends up in `dist/DuoListen.exe`. It's a C# / WPF app, made with [NAudio](https://github.com/naudio/NAudio) and [WPF UI](https://github.com/lepoco/wpfui).
+
+## License
+
+[MIT](LICENSE)

@@ -9,6 +9,7 @@ Toque o mesmo áudio em dois fones Bluetooth ao mesmo tempo no Windows 11.
 - **Sem drivers:** sem cabos de áudio virtuais nem programas extras.
 - **Leve:** consumo mínimo de CPU, GPU e memória RAM.
 - **Fácil de desinstalar:** um botão dentro do próprio app.
+- **Código aberto:** licença MIT. Use, mude e compartilhe à vontade.
 
 > [!NOTE]
 > Todo o código foi feito pela **Claude** (IA da Anthropic). Testado e funcionando no **Windows 11**. Não garanto o funcionamento em outros sistemas.
@@ -36,3 +37,17 @@ Se o Windows SmartScreen avisar: **Mais informações → Executar assim mesmo**
 No app, clique em **Desinstalar** (lá embaixo). Ele apaga o app, as configurações e os arquivos temporários.
 
 Ou rode o `UninstallDuoListen.bat` na mesma pasta do `DuoListen.exe`.
+
+## Compilar o código
+
+Precisa do [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
+
+```
+dotnet publish DuoListen/DuoListen.csproj -c Release -o dist
+```
+
+O app fica em `dist/DuoListen.exe`. É um app em C# / WPF, feito com [NAudio](https://github.com/naudio/NAudio) e [WPF UI](https://github.com/lepoco/wpfui).
+
+## Licença
+
+[MIT](LICENSE)

@@ -13,7 +13,7 @@ I wanted to play games with my partner watching, each with our own headphones. T
 
 | VoiceMeeter Banana | DuoListen |
 | :---: | :---: |
-| <img src="https://vb-audio.com/Voicemeeter/VoicemeeterBanana.jpg" alt="VoiceMeeter Banana" width="420"> | <img src="docs/screenshots/duolisten.png" alt="DuoListen" width="300"> |
+| <img src="https://vb-audio.com/Voicemeeter/VoicemeeterBananaMixer.jpg" alt="VoiceMeeter Banana" width="420"> | <img src="docs/screenshots/duolisten.png" alt="DuoListen" width="300"> |
 
 <sub>VoiceMeeter Banana image from the [VB-Audio website](https://vb-audio.com/Voicemeeter/banana.htm).</sub>
 

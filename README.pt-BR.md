@@ -13,7 +13,7 @@ Eu queria jogar com a minha companheira assistindo, cada um com o seu fone. A ú
 
 | VoiceMeeter Banana | DuoListen |
 | :---: | :---: |
-| <img src="https://vb-audio.com/Voicemeeter/VoicemeeterBanana.jpg" alt="VoiceMeeter Banana" width="420"> | <img src="docs/screenshots/duolisten.png" alt="DuoListen" width="300"> |
+| <img src="https://vb-audio.com/Voicemeeter/VoicemeeterBananaMixer.jpg" alt="VoiceMeeter Banana" width="420"> | <img src="docs/screenshots/duolisten.png" alt="DuoListen" width="300"> |
 
 <sub>Imagem do VoiceMeeter Banana tirada do [site da VB-Audio](https://vb-audio.com/Voicemeeter/banana.htm).</sub>
 

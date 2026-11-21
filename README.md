@@ -1,25 +1,30 @@
 # DuoListen
 
-Ouça o mesmo áudio em dois fones Bluetooth ao mesmo tempo no Windows 11.
+**English** | [Português (Brasil)](README.pt-BR.md)
 
-Listen to the same audio on two Bluetooth headsets simultaneously in Windows 11.
+Play the same audio on two Bluetooth headphones at once on Windows 11.
 
-## Download
+> [!NOTE]
+> All the code was written by **Claude** (Anthropic's AI). Tested and working on **Windows 11**. No guarantee it works on other systems.
 
-Baixe o `DuoListen.exe` mais recente na aba **[Releases](../../releases/latest)**.
+## Why
 
-Download the latest `DuoListen.exe` from the **[Releases](../../releases/latest)** tab.
+I wanted to play games with my partner watching, each with our own headphones. The only option that worked was VoiceMeeter Banana, and its interface is cluttered and unpleasant. DuoListen does just this one job, simply.
 
-## Como usar / How to use
+| VoiceMeeter Banana | DuoListen |
+| :---: | :---: |
+| <img src="https://vb-audio.com/Voicemeeter/VoicemeeterBanana.jpg" alt="VoiceMeeter Banana" width="420"> | <img src="docs/screenshots/duolisten.png" alt="DuoListen" width="300"> |
 
-1. Baixe o `DuoListen.exe`. / Download `DuoListen.exe`.
-2. Dê dois cliques para abrir. / Double-click to open.
+<sub>VoiceMeeter Banana image from the [VB-Audio website](https://vb-audio.com/Voicemeeter/banana.htm).</sub>
 
-Se o Windows SmartScreen avisar, clique em **Mais informações → Executar assim mesmo**.
-If Windows SmartScreen warns you, click **More info → Run anyway**.
+## How to use
 
-## Desinstalar / Uninstall
+1. Download `DuoListen.exe` from [Releases](../../releases/latest).
+2. Open it.
+3. Pick your two headphones and turn on the switch at the top.
 
-Rode o `UninstallDuoListen.bat` na mesma pasta do `DuoListen.exe`. Ele fecha o app, remove o programa, as configurações e os arquivos temporários, e tira os alto-falantes do mudo.
+If Windows SmartScreen shows a warning: **More info → Run anyway**.
 
-Run `UninstallDuoListen.bat` from the same folder as `DuoListen.exe`. It closes the app, removes the program, settings and temporary files, and unmutes the speakers.
+## Uninstall
+
+Run `UninstallDuoListen.bat` in the same folder as `DuoListen.exe`.

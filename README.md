@@ -4,6 +4,7 @@
 
 Play the same audio on two Bluetooth headphones at once on Windows 11.
 
+- **Easy to use:** pick your two headphones and turn it on. One click.
 - **Nothing to install:** a single `.exe`. Just open it.
 - **No drivers:** no virtual audio cables or extra software.
 - **Lightweight:** minimal CPU, GPU and RAM use.

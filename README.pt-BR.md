@@ -4,6 +4,7 @@
 
 Toque o mesmo áudio em dois fones Bluetooth ao mesmo tempo no Windows 11.
 
+- **Fácil de usar:** escolha os dois fones e ligue. Um clique.
 - **Nada para instalar:** é um único `.exe`. É só abrir.
 - **Sem drivers:** sem cabos de áudio virtuais nem programas extras.
 - **Leve:** consumo mínimo de CPU, GPU e memória RAM.
